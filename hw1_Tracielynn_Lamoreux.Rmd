@@ -58,15 +58,17 @@ Replace `FirstName` and `LastName` with your first and last name.
 
 5. Create a second section named Programming Environment
 
-    Answer: ...
+## Programming Enviroment
+    Answer: Done
 
   
 6. To check that your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. *Include this command into an R code trunk* so your R version is automatically printed in the knitted html file. 
 
-    Answer: ...
+    Answer: 
+```{r}
+version
+```
 
-
-  
 7. Install git. 
     - If you are on Windows: 
         a. Install [Git for Windows](https://gitforwindows.org/). In the coming weeks we will use the Git Bash (but not the Git GUI). 
@@ -74,16 +76,13 @@ Replace `FirstName` and `LastName` with your first and last name.
         c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should be good to go.
         d. If you don't see a `$` before your prompt, try restarting RStudio.
     - If you are on Linux or macOS, Git has probably been installed by default, so you do not need to install anything. Just click the Terminal tab (above the R Console).
-
-    Answer: ...
-
-
+    Answer: done
 
 8. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. 
 <!-- Then explore the bash command line and Git. -->
 
     ```
-    git --version
+  git version 2.30.1 (Apple Git-130)
     ```
 
 
@@ -95,8 +94,9 @@ Replace `FirstName` and `LastName` with your first and last name.
     git config --global user.email "your email"
     ```
 
-    Answer: ...
-
+    Answer:done
+    
 1. Initiate a git repository within the `hw1` folder (the folder containing the current homework). Add your homework files and create a commit. Show what does `git log` tell you.
 
-    Answer: ...
+    Answer: done
+
